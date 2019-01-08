@@ -1,1 +1,1 @@
-
+By combining an Adafruit Mini Pan-Tilt Kit with a sensor shield, a 6V/2A power supply, a laser diode, a HC-05 Bluetooth Module, and an Arduino UNO REV 3, a device will be forged to supply the niche of keeping household pets occupied in an autonomous nature. An Android application external to the device will be used to send signals to the Arduino through Serial communication, which will then be represented accordingly in the device's actions.
