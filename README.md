@@ -8,4 +8,4 @@ Navigating to the 'src' folder found above, one can find the source code for nee
 
 Android APK
 -------------------------------------------------------------------------
-In addition, the .apk has been provided within the root folder for the purpose of downloading the Android application to a local device.
+In addition, the .apk has been provided within the root folder for the purpose of downloading the Android application to a local device of the user's choice.
