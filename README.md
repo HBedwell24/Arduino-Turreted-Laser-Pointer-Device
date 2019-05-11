@@ -4,8 +4,8 @@ By combining an Adafruit Mini Pan-Tilt Kit with a sensor shield, a 6V/2A power s
 
 Arduino Source Code
 -------------------------------------------------------------------------
-Above, one can find the source code for needed Arduino libraries as well as the Arduino program itself. 
+Navigating to the 'src' folder found above, one can find the source code for needed Arduino libraries as well as the Arduino program itself. 
 
 Android APK
 -------------------------------------------------------------------------
-In addition, the .apk has been provided for the purpose of downloading the Android application to a local device.
+In addition, the .apk has been provided within the root folder for the purpose of downloading the Android application to a local device.
