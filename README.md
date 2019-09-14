@@ -20,9 +20,9 @@ Start by placing the pins of the HC-05 Bluetooth Module into the edge of the bre
 
 ![Breadboard](images/breadboard.jpg?raw=true "Breadboard Resistor, Jumper Wire, and Bluetooth Module Placement")
 
-Wrapping It Up
+Configuring the Device
 --------------------------------------------------------------
-To see the device in action, simply open up a window in Arduino IDE, and place the Arduino code from the 'src' folder into the same folder. Make sure that the correct microcontroller and port are selected under the tools menu, and then proceed to verify/upload sketch.ino. To properly utilize the full potential of the  HC-05 Bluetooth Module within this project, one should also download the .apk file for the Android application from the root of the repo. 
+To see the device in action, simply open up a window in Arduino IDE, and place the Arduino code from the 'src' folder into the project solution. Make sure that the correct microcontroller and port are selected under the tools menu, and then proceed to verify/upload sketch.ino. To properly utilize the full potential of the  HC-05 Bluetooth Module within this project, one should also download the .apk file for the Android application from the root of the repo. 
 
 Once this has been accomplished, step-by-step instructions to move the .apk file from a computer to an Android device of choice can be found here, at AndroidBit: 
 
