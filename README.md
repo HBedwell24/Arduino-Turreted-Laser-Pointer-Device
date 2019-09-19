@@ -15,8 +15,8 @@ Materials Checklist
 - [x] Black Female/Male Jumper Wires (x2)
 - [x] Blue Female/Male Jumper Wires (x2)
 - [x] Green Female/Male Jumper Wires (x1)
-- [x] 1K Ohm 1/4 Watt PTH resistor (x1)
-- [x] 2.2K Ohm 1/4 Watt Carbon Film Resistor (x1)
+- [x] 1K Ohm ¼ Watt PTH resistor (x1)
+- [x] 2.2K Ohm ¼ Watt Carbon Film Resistor (x1)
 
 Device Construction
 ------------------------------------------------------------------------
