@@ -4,19 +4,19 @@ A device forged to supply the niche of keeping household pets occupied in an aut
 
 Materials Checklist
 ------------------------------------------------------------------------
-[x] Arduino UNO REV3 (x1)
-[x] RobotGeek Sensor Shield V2 (x1)
-[x] Adafruit Mini Pan-Tilt Kit (x1)
-[x] 5mW 650nm Laser Diode (x1)
-[x] HC-05 Bluetooth Transmission Module (x1)
-[x] Full Sized Breadboard (x1)
-[x] 6V Power Supply (x1)
-[x] Red Female/Male Jumper Wires (x2)
-[x] Black Female/Male Jumper Wires (x2)
-[x] Blue Female/Male Jumper Wires (x2)
-[x] Green Female/Male Jumper Wires (x1)
-[x] 1K Ohm 1/4 Watt PTH resistor (x1)
-[x] 2.2K Ohm 1/4 Watt Carbon Film Resistor (x1)
+- [x] Arduino UNO REV3 (x1)
+- [x] RobotGeek Sensor Shield V2 (x1)
+- [x] Adafruit Mini Pan-Tilt Kit (x1)
+- [x] 5mW 650nm Laser Diode (x1)
+- [x] HC-05 Bluetooth Transmission Module (x1)
+- [x] Full Sized Breadboard (x1)
+- [x] 6V Power Supply (x1)
+- [x] Red Female/Male Jumper Wires (x2)
+- [x] Black Female/Male Jumper Wires (x2)
+- [x] Blue Female/Male Jumper Wires (x2)
+- [x] Green Female/Male Jumper Wires (x1)
+- [x] 1K Ohm 1/4 Watt PTH resistor (x1)
+- [x] 2.2K Ohm 1/4 Watt Carbon Film Resistor (x1)
 
 Device Construction
 ------------------------------------------------------------------------
