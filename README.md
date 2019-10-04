@@ -1,9 +1,7 @@
-Arduino Turreted Laser Pointer Device
-=========================================================================
+# Arduino Turreted Laser Pointer Device
 A device forged to supply the niche of keeping household pets occupied in an autonomous nature through the culmination of various hardware components (Adafruit Mini Pan-Tilt Kit, a sensor shield, a 6V/2A power supply, a laser diode, a HC-05 Bluetooth module, and an Arduino UNO Rev 3), as well as an Android application external to the configuration (which performed the role of sending signals to the Arduino through Serial communication, which could then be represented accordingly in the Arduino’s C/C++ codebase). 
 
-Materials Checklist
-------------------------------------------------------------------------
+## 1. Materials Checklist
 - [x] Arduino UNO REV3 (x1)
 - [x] RobotGeek Sensor Shield V2 (x1)
 - [x] Adafruit Mini Pan-Tilt Kit (x1)
@@ -18,8 +16,7 @@ Materials Checklist
 - [x] 1K Ohm ¼ Watt PTH resistor (x1)
 - [x] 2.2K Ohm ¼ Watt Carbon Film Resistor (x1)
 
-Device Construction
-------------------------------------------------------------------------
+## 2. Device Construction
 The RobotGeek Sensor Shield is compatible with any Arduino board, so the Sensor Shield male header pins should fit perfectly with the female header pins of the Arduino UNO REV3, just make sure that the male header pins aren’t bent when exerting force down on the Sensor Shield to attach it to the Arduino board. Conveniently, the Sensor Shield converts the Arduino’s Digital IO pins into 3-pin adapters, so that it is easier to add servos and other sensors to the project. 
 
 Under the group of pins labeled Voltage In (VIN), attach one servo to DIO-10 and the other to DIO-11. This is so that the servos draw power from the 6V Power Supply, rather than from the Arduino’s built-in 5V regulator which would limit the servo’s range of rotation. It is important to make sure that the orange wire on each servo corresponds to the Signal (S) pin, the red wire to the Voltage (V) pin, and the brown wire to the Ground (G) pin; otherwise, the current will likely burn out the servos. Now, take the female end of the blue jumper wire and attach it to the Signal (S) pin of DIO-12 (this will be your RX pin by which you receive serial data from the HC-05). Repeat the same for the female end of the green jumper wire on the Signal (S) pin of DIO-13 (this will be your TX pin by which you transmit serial data to the HC-05). When attaching the 5mW laser diode to the sensor shield, the diode will feature two wires: a red wire for power and a black wire for ground. Unfortunately, both wires lack header pins to mount directly to the sensor shield, so this is where two of the remaining red and black female/male jumper wires (one of each) will come into play. 
@@ -36,8 +33,7 @@ Start by placing the pins of the HC-05 Bluetooth Module into the edge of the bre
 
 ![Breadboard](images/breadboard.jpg?raw=true "Breadboard Resistor, Jumper Wire, and Bluetooth Module Placement")
 
-Configuring the Device
---------------------------------------------------------------
+## 3. Configuring the Device
 To see the device in action, simply open up a window in Arduino IDE, and place the Arduino code from the 'src' folder into the project solution. Make sure that the correct microcontroller and port are selected under the tools menu, and then proceed to verify/upload sketch.ino. To properly utilize the full potential of the  HC-05 Bluetooth Module within this project, one should also download the .apk file for the Android application from the root of the repo. 
 
 Once this has been accomplished, step-by-step instructions to move the .apk file from a computer to an Android device of choice can be found here, at AndroidBit: 
