@@ -1,6 +1,16 @@
 # Arduino Turreted Laser Pointer Device
 A device forged to supply the niche of keeping household pets occupied in an autonomous nature through the culmination of various hardware components (Adafruit Mini Pan-Tilt Kit, a sensor shield, a 6V/2A power supply, a laser diode, a HC-05 Bluetooth module, and an Arduino UNO Rev 3), as well as an Android application external to the configuration (which performed the role of sending signals to the Arduino through Serial communication, which could then be represented accordingly in the Arduino’s C/C++ codebase). 
 
+---
+
+## Table of Contents
+
+1. [Materials Checklist](#materialschecklist)
+2. [Device Construction](#deviceconstruction)
+3. [Configuring the Device](#configuringthedevice)
+
+---
+
 ## 1. Materials Checklist
 - [x] Arduino UNO REV3 (x1)
 - [x] RobotGeek Sensor Shield V2 (x1)
